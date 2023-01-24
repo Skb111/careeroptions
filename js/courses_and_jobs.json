@@ -1,0 +1,30 @@
+
+{
+    "courses": [
+        {
+            "name": "Web Development",
+            "description": "Learn HTML, CSS, and JavaScript to create websites and web applications.",
+            "requirements": ["Html","CSS","JavaScript","React","Angular","vue","next"]
+        },
+        {
+            "name": "Data Science",
+            "description": "Use Python and statistical analysis to explore and analyze data.",
+            "requirements": ["Python", "Statistics"]
+        }
+    ],
+    "jobs": [
+        {
+            "name": "Web Developer",
+            "description": "Design and develop websites and web applications.",
+            "requirements": ["HTML", "CSS", "JavaScript"],
+            "related_course": "Web Development"
+        },
+        {
+            "name": "Data Scientist",
+            "description": "Use data to inform decision-making and solve problems.",
+            "requirements": ["Python", "Statistics", "Data Analysis"],
+            "related_course": "Data Science"
+        }
+    ]
+}
+
