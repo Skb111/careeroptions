@@ -45,9 +45,9 @@
         min-height: 60vh;
     }
     .home-header{
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Montserrat';
-        font-weight: 600;
+        font-weight: 400;
         padding-top: 5rem;
         padding-left: 1rem;
     }
@@ -58,13 +58,27 @@
     
     .home{
         width: 100%;
-        background-image: url("https://picsum.photos/700/300?random=1");
+        background-image: url("../imgs1/bg3.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size:center;
         overflow-x: hidden !important;
     }
-    
+    .service{
+        width: 100%;
+        background-image: url("../imgs1/services2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:center;
+        overflow-x: hidden !important;
+    }
+    .service-header{
+        font-size: 20px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
     .p1{
         color: var(--paragraph-color);
         font-family: 'Dm sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
