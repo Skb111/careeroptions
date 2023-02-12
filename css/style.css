@@ -847,11 +847,20 @@ section{
     margin-top: 10px;
     min-height: 7vh;
 }
+textarea{
+    resize: none !important;
+}
 .textarea1,
     input[type=text] {
     border: 1px solid purple !important;
-    background-color: #F2F1F5;
 }
+
+input[type=email] {
+    border: 1px solid purple !important;
+}
+/* .email, .phone{
+    border: 1px solid purple !important;
+} */
 select{
     margin: 5px;
     padding: 10px;
@@ -860,12 +869,14 @@ select{
     /* padding: .85rem 4rem !important; */
     border: 5px;
 }
-textarea{
+
+/* textarea{
     border: 1px solid purple;
     border-radius: 5px;
     background-color: #F2F1F5 !important;
     resize: none;
-}
+} */
+
 /* .textarea1{
     border: 1px solid #000000 !important;
 } */
@@ -888,8 +899,22 @@ textarea{
     border-radius: 5px;
     padding-left: 1.2rem;
 }
-.twit-active{
+.list-inline-item{
     background-color: purple;
+    color: white !important;
+    border-radius: 45%;
+}
+.list-inline-item:hover{
+    background-color: white;
+    border: 1px solid purple;
+    color: purple !important;
+}
+.list-inline-item .fab{
+    color: white !important;
+}
+.list-inline-item .fab:hover{
+    background-color: white;
+    color: purple !important;
 }
  hr{
     color: black;
@@ -987,11 +1012,11 @@ section .wrapper{
     color: #3480F1;
 }
 /*otp*/
-.inputs input {
+/* .inputs input {
     width: 60px;
     height: 60px;
     border: 1px solid purple !important;
-}
+} */
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -1025,3 +1050,17 @@ input[type=number]::-webkit-outer-spin-button {
     display: none;
     overflow: hidden;
   }
+  .article-container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 900px !important;
+    background-color: #fff !important;
+    padding: 30px !important;
+}
+.article-box{
+    padding-bottom: 30px !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    background-color: rgb(199, 199, 214);
+}

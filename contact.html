@@ -48,14 +48,6 @@
             <a class="nav-link active" href="contact.html">Contact Us</a>
           </li>
         </ul>
-        <!-- <ul class="navbar-nav me-5">
-          <li>
-            <a class="nav-link btn1" href="signup.html">Sign Up</a>
-          </li>
-          <li>
-            <a class="nav-link btn2" href="signin.html">Sign In</a>
-          </li>
-        </ul> -->
       </div>
     </div>
   </nav> 
@@ -72,35 +64,25 @@
                               we value your feedback and are always here to help. If you have any questions or concerns 
                               about our products or services, please don't hesitate to reach out.
                             </p> 
-                            <form class="row g-3 py-4  align-items-center justify-content-center" >
-                                <div class="col-md-5">
-                                    <label class="labels">Firstname</label>
-                                    <input type="text" class="form-control form-control-1" id="uname" placeholder="" name="uname">
-                                  </div>
-                                <div class="col-md-5">
-                                 <label class="labels">Lastname</label>
-                                  <input type="text" class="form-control form-control-2" id="lname" placeholder="" name="lname">
+                            <form class="row g-3 py-4  align-items-center justify-content-center" method="POST" action="send.php">
+                              <div class="col-md-10">
+                                  <label class="labels">Name</label>
+                                  <input type="text" class="form-control form-control-1" id="uname" placeholder="Please Enter Your Name" name="uname">
                                 </div>
-                                <div class="col-md-5">
-                                    <label class="labels">Email</label>
-                                    <input type="text" class="form-control form-control-1" id="cname" placeholder="" name="cname">
-                                  </div>
-                                <div class="col-md-5">
-                                 <label class="labels">School Name</label>
-                                  <input type="text" class="form-control form-control-2" id="email" placeholder="" name="email">
+                              <div class="col-md-10">
+                                  <label class="labels">Email</label>
+                                  <input type="email" class="form-control form-control-1" id="email" placeholder="Please Enter Your Name" name="email">
                                 </div>
-                                <div class="col-md-5">
-                                  <label class="labels">Phone</label>
-                                   <input type="text" class="form-control form-control-2" id="Email" placeholder="" name="Email">
-                                 </div>
-                                 <div class="col-md-5">
-                                  <label class="labels">Course Of Study</label>
-                                   <input type="text" class="form-control form-control-2" id="Email" placeholder="" name="Email">
-                                 </div>
-                                <!-- <div class="col-md-5 navbar-nav bg-dark"> -->
-                                  <button type="submit" class="cont-btn col-md-10 mb-3" id="cont-btn" >Submit</button>
-                              </form>
-  
+                              <div class="col-md-10">
+                               <label class="labels">Subject</label>
+                                <input type="text" class="form-control form-control-2" id="subject" placeholder="Please Enter The Subject Of Your Mail" name="subject">
+                              </div>
+                              <div class="col-md-10">
+                                <label class="labels">Message</label>
+                                 <textarea name="message" id="" cols="60" rows="10" class="textarea1 form-control" placeholder="Please Enter Your Message"></textarea>
+                               </div>
+                                <button type="submit" class="cont-btn col-md-10 mb-3" id="cont-btn" name="submit">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
